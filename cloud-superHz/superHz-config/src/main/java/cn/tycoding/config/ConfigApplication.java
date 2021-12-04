@@ -18,5 +18,6 @@ public class ConfigApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(ConfigApplication.class, args);
+        System.out.println("super-config 启动成功！");
     }
 }

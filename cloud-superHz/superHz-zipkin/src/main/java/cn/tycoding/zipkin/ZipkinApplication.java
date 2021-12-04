@@ -18,5 +18,6 @@ public class ZipkinApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(ZipkinApplication.class, args);
+        System.out.println("super-zipkin 启动成功！");
     }
 }

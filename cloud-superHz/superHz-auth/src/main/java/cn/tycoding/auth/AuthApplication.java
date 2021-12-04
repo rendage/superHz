@@ -20,5 +20,6 @@ public class AuthApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(AuthApplication.class, args);
+        System.out.println("super-auth 启动完成！");
     }
 }

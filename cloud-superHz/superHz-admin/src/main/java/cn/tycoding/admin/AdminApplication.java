@@ -16,6 +16,6 @@ public class AdminApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(AdminApplication.class, args);
-        System.out.println("admin 启动成功");
+        System.out.println("superHz-admin 启动成功");
     }
 }
