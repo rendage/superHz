@@ -1,4 +1,4 @@
-package com.lhs.kuaiyou.function.pipeline;
+package utils;
 
 public class TwoHandler implements IHandler<A1,B1> {
     @Override

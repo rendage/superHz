@@ -1,4 +1,4 @@
-package com.lhs.kuaiyou.function.pipeline;
+package utils;
 
 public class A1 {
     private String msg;

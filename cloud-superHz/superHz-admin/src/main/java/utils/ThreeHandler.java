@@ -1,4 +1,4 @@
-package com.lhs.kuaiyou.function.pipeline;
+package utils;
 
 public class ThreeHandler implements IHandler<B1,C1> {
     @Override

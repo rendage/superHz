@@ -1,4 +1,4 @@
-package com.lhs.kuaiyou.function.pipeline;
+package utils;
 
 /**
  * @author renxz

@@ -1,15 +1,14 @@
-package abc;
+package utils;
 
-import java.security.SecureRandom;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.util.StringUtils;
 
 import javax.crypto.Cipher;
 import javax.crypto.KeyGenerator;
 import javax.crypto.SecretKey;
 import javax.crypto.spec.SecretKeySpec;
-
-import org.apache.log4j.Logger;
-
-import com.alibaba.druid.util.StringUtils;
+import java.security.SecureRandom;
 
 /**
  * AES加密解密
@@ -18,7 +17,7 @@ import com.alibaba.druid.util.StringUtils;
  */
 public class AESUtil {
 		
-	private static final Logger logger=Logger.getLogger(AESUtil.class);
+	private static final Logger logger= LoggerFactory.getLogger(AESUtil.class);
 	private static final String defaultCharset="UTF-8";
 	private static final String KEY_AES="AES";
 	private static final String KEY="123456";

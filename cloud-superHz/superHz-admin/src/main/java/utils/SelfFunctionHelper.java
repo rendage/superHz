@@ -1,4 +1,4 @@
-package com.lhs.kuaiyou.function;
+package utils;
 
 import java.util.function.Consumer;
 import java.util.function.Predicate;

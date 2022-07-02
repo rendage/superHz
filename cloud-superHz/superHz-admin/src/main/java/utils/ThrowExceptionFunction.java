@@ -1,4 +1,4 @@
-package com.lhs.kuaiyou.function;
+package utils;
 
 /**
  * @Descrition 异常
