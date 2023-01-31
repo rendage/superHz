@@ -8,16 +8,17 @@ class TheadTest implements Runnable {
     public synchronized void M1() throws InterruptedException {
         System.out.println("异步执行");
         a = 100;
-        Thread.sleep(5);
+        Thread.sleep(5000);
         System.out.println("M1a=" + a);
     }
 
     public synchronized void M2() throws InterruptedException {
         a = 200;
-        Thread.sleep(5);
+        Thread.sleep(5000);
         System.out.println("M2a=" + a);
     }
 
+    @Override
     public void run() {
         try {
             this.M1();
@@ -56,12 +57,13 @@ public class concreeTest {
         Random random = new Random();
 
         for (int i = 0; i < a.length; i++) {
-
-            int RND = random.nextInt(20);    //生成10个20以内的随机数
+            //生成10个20以内的随机数
+            int RND = random.nextInt(20);
             a[i] = RND;
 
             for (int j = 0; j < i; j++) {
-                if (a[i] == a[j]) {            //判断a[i]和a[j]是否相同，如果相同，将i值退回
+                //判断a[i]和a[j]是否相同，如果相同，将i值退回
+                if (a[i] == a[j]) {
                     i--;
                     break;
                 }

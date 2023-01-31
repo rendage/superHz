@@ -9,24 +9,27 @@ public class Solution {
     }
     public static ArrayList<String> Permutation(String str) {
         ArrayList<String> res = new ArrayList<String>();
-        if(str == null || str.length() <= 0)
+        if (str == null || str.length() <= 0)
             return res;
-        HashSet<String> set = new HashSet<String>(); //结果去重
+        //结果去重
+        HashSet<String> set = new HashSet<String>();
         dfs(set, str.toCharArray(), 0);
         res.addAll(set);
         Collections.sort(res);
         return res;
     }
 
-    public static void dfs(HashSet<String> set, char[] str, int k){
-        if(k == str.length){  //得到结果
+    public static void dfs(HashSet<String> set, char[] str, int k) {
+        //得到结果
+        if (k == str.length) {
             set.add(new String(str));
-            return ;
+            return;
         }
-        for(int i = 0; i < str.length; i ++){
+        for (int i = 0; i < str.length; i++) {
             swap(i, k, str);
             dfs(set, str, k + 1);
-            swap(i, k, str);  //回溯
+            //回溯
+            swap(i, k, str);
         }
     }
 
