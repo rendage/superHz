@@ -1,4 +1,4 @@
-package cn.tycoding.zuul;
+package cn.renxz.zuul;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

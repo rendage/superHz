@@ -1,6 +1,6 @@
-package cn.tycoding.auth.feign.service;
+package cn.renxz.auth.feign.service;
 
-import cn.tycoding.auth.feign.service.fallback.AuthFeignServiceFallbackImpl;
+import cn.renxz.auth.feign.service.fallback.AuthFeignServiceFallbackImpl;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

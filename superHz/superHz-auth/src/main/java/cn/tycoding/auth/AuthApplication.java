@@ -1,4 +1,4 @@
-package cn.tycoding.auth;
+package cn.renxz.auth;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

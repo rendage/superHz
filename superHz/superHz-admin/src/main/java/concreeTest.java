@@ -18,7 +18,6 @@ class TheadTest implements Runnable {
         System.out.println("M2a=" + a);
     }
 
-    @Override
     public void run() {
         try {
             this.M1();

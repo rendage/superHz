@@ -1,4 +1,4 @@
-package cn.tycoding.admin.controller;
+package cn.renxz.admin.controller;
 
 import org.apache.commons.lang.ArrayUtils;
 

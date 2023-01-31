@@ -1,6 +1,6 @@
-package cn.tycoding.auth.controller;
+package cn.renxz.auth.controller;
 
-import cn.tycoding.auth.feign.service.AuthFeignService;
+import cn.renxz.auth.feign.service.AuthFeignService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

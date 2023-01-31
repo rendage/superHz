@@ -1,6 +1,6 @@
-package cn.tycoding.auth.feign.service.fallback;
+package cn.renxz.auth.feign.service.fallback;
 
-import cn.tycoding.auth.feign.service.AuthFeignService;
+import cn.renxz.auth.feign.service.AuthFeignService;
 import org.springframework.stereotype.Component;
 
 /**

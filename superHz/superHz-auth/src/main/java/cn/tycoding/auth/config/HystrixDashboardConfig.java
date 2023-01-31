@@ -1,4 +1,4 @@
-package cn.tycoding.auth.config;
+package cn.renxz.auth.config;
 
 import com.netflix.hystrix.contrib.metrics.eventstream.HystrixMetricsStreamServlet;
 import org.springframework.boot.web.servlet.ServletRegistrationBean;

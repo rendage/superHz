@@ -1,4 +1,4 @@
-package cn.tycoding.boot.admin;
+package cn.renxz.boot.admin;
 
 import de.codecentric.boot.admin.server.config.EnableAdminServer;
 import org.springframework.boot.SpringApplication;

@@ -1,4 +1,4 @@
-package cn.tycoding.zuul.filter;
+package cn.renxz.zuul.filter;
 
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;

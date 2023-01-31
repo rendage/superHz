@@ -1,9 +1,9 @@
-package cn.tycoding.admin.controller;
+package cn.renxz.admin.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
-import cn.tycoding.admin.service.CommodityFeignClient;
+import cn.renxz.admin.service.CommodityFeignClient;
 
 import javax.annotation.Resource;
 

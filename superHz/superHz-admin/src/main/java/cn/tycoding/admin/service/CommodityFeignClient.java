@@ -1,4 +1,4 @@
-package cn.tycoding.admin.service;
+package cn.renxz.admin.service;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
